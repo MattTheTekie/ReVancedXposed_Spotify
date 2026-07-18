@@ -53,8 +53,8 @@ There is something you need to know in order to use it, so find it on the xManag
 ### Spotify
 - Unlock Spotify Premium
 - Sanitize sharing links
-- Monet theme by TheWinner02
-- RoundyUI by Thewinner02
+- Disabled the Monet theme by TheWinner02
+- Disabled the RoundyUI by Thewinner02
 - Module menu by TheWinner02
 
 ## Downloads

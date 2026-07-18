@@ -115,7 +115,7 @@ class MainHook : IXposedHookLoadPackage, IXposedHookZygoteInit {
             // --- DISABLE BLOCCO MONET ---
             try {
                 if (prefs.getBoolean("enable_monet", true)) {
-                    XposedBridge.log("Mod Monet DISABLE: ${e.message}")
+                    XposedBridge.log("Mod Monet DISABLE")
                 }
             } catch (e: Exception) {
                 XposedBridge.log("Mod Monet fallita: ${e.message}")
@@ -124,7 +124,7 @@ class MainHook : IXposedHookLoadPackage, IXposedHookZygoteInit {
             // --- DISABLE BLOCCO ROUNDY (Il sospettato numero 1) ---
             try {
                 if (prefs.getBoolean("enable_round_ui", true)) {
-                    XposedBridge.log("Mod Roundy DISABLE: ${e.message}")
+                    XposedBridge.log("Mod Roundy DISABLE")
                 }
             } catch (e: Exception) {
                 XposedBridge.log("Mod Roundy fallita: ${e.message}")

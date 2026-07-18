@@ -1,8 +1,9 @@
 <div align="center">
-  <h1>ReVanced Xposed Spotify</h1>
+  <h1>ReVanced Xposed Spotify-MOD</h1>
   <br>
 </div>
-
+**Modified by MattTheTekie to remove the funny monet ui and rounded corners. Do NOT PM me for any issues with the project. This is a PERSONAL fork.**  
+**Any changes will be upstreamed from source when they occur.**
 **ReVanced LSPosed module by ChsBuffer, just for Spotify.**  
 Forked and Updating by TheWinner02.
 >[!IMPORTANT]  

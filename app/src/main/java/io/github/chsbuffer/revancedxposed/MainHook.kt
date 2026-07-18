@@ -112,19 +112,19 @@ class MainHook : IXposedHookLoadPackage, IXposedHookZygoteInit {
                 XposedBridge.log("AdBlocker fallito: ${e.message}")
             }
 
-            // --- BLOCCO MONET ---
+            // --- DISABLE BLOCCO MONET ---
             try {
                 if (prefs.getBoolean("enable_monet", true)) {
-                    ThemeHook(app, lpparam).hook()
+                    XposedBridge.log("Mod Monet DISABLE: ${e.message}")
                 }
             } catch (e: Exception) {
                 XposedBridge.log("Mod Monet fallita: ${e.message}")
             }
 
-            // --- BLOCCO ROUNDY (Il sospettato numero 1) ---
+            // --- DISABLE BLOCCO ROUNDY (Il sospettato numero 1) ---
             try {
                 if (prefs.getBoolean("enable_round_ui", true)) {
-                    RoundyUIHook(lpparam).hook()
+                    XposedBridge.log("Mod Roundy DISABLE: ${e.message}")
                 }
             } catch (e: Exception) {
                 XposedBridge.log("Mod Roundy fallita: ${e.message}")

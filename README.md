@@ -2,7 +2,9 @@
   <h1>ReVanced Xposed Spotify-MOD</h1>
   <br>
 </div>
+
 **Modified by MattTheTekie to remove the funny monet ui and rounded corners. Do NOT PM me for any issues with the project. This is a PERSONAL fork.**  
+- **Original Fork**: [Download](https://github.com/TheWinner02/ReVancedXposed_Spotify)
 **Any changes will be upstreamed from source when they occur.**
 **ReVanced LSPosed module by ChsBuffer, just for Spotify.**  
 Forked and Updating by TheWinner02.
